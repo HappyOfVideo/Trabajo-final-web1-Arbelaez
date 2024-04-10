@@ -1,0 +1,83 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nómina Express</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <div class="Logo">
+            <img src="img/logo.png" alt="Logo de la compañia">
+            <h2 class="nombre de la empresa">Nómina Express</h2>
+        </div>
+    </header>
+
+    <nav>
+        <a href="" class="nav-link"></a>
+        <a href="" class="nav-link"></a>
+        <a href="" class="nav-link"></a>
+        <a href="" class="nav-link"></a>
+    </nav>
+
+    <main>
+
+        <section id="form" class="box-p">
+
+            <h2>Formulario Cliente</h2>
+
+            <form name="formulario" id="formulario">
+                Nombre<br><input type="text" name="fname" id="fname"> <br><br>
+                Apellido<br><input type="text" name="flname" id="flname"><br><br>
+                Salario<br><input type="number" name="fsalary" id="fsalary"><br><br>
+            </form>
+            <button id="btnEnviar" onclick="validadorForm(), imprimirForm(), calcularNomina()">
+                Enviar
+            </button>
+
+        </section>
+
+        <section id="print" class="box-p">
+
+            <article>
+                <p id="ver">
+                    
+                </p>
+                <p id="ver2">
+
+                </p>
+            </article>
+
+        </section>
+
+
+    </main>
+
+    <footer name="sct" id="down" class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/logo.png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Contactanos</h2> <hr>
+                <p>CORREO: msinter@outlook.com</p>
+                <p>TEL: 3206698388</p>
+                <p>DIRECCION: Cra. 58b #57-64</p>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>MARBE STORE</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer> 
+
+    <script src="js.js"></script>
+
+</body>
+</html>
